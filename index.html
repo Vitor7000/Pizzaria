@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Pizzaria Magalhães</h1>
+        <p>Monte sua pizza e peça agora mesmo na melhor da região!</p>
+    </header>
+
+    <div class="container">
+        <h2>Faça seu Pedido</h2>
+        <form>
+            <label for="name">Nome Completo</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" required>
+
+            <label for="address">Endereço</label>
+            <input type="text" id="address" name="address" placeholder="Seu endereço" required>
+
+            <label for="number">Número</label>
+            <input type="number" id="number" name="number" placeholder="Seu telefone" required>
+
+            <label for="pizza-size">Tamanho da Pizza</label>
+            <select id="pizza-size" name="pizza-size" required>
+                <option value="pequena">Pequena</option>
+                <option value="media">Média</option>
+                <option value="grande">Grande</option>
+            </select>
+
+            <label for="toppings">Selecione os Sabores</label>
+            <select id="toppings" name="toppings" size="5" required>
+                <option value="mussarela">Mussarela</option>
+                <option value="calabresa">Calabresa</option>
+                <option value="portuguesa">Portuguesa</option>
+                <option value="frango-catupiry">Frango com Catupiry</option>
+                <option value="marguerita">Margherita</option>
+            </select>
+
+            <label for="toppings">Selecione os Sabores da borda</label>
+            <select id="toppings-border" name="toppings-border" size="5" required>
+                <option value="mussarela">Mussarela</option>
+                <option value="catupiry">Catupiry</option>
+                <option value="leite-ninho-nutella">Leite ninho com Nutella</option>
+                <option value="frango-catupiry">Frango com Catupiry</option>
+                <option value="chocolate">Chocolate</option>
+            </select>
+
+            <label for="notes">Observações</label>
+            <textarea id="notes" name="notes" placeholder="Alguma observação?"></textarea>
+
+            <button type="submit">Enviar Pedido</button>
+        </form>
+    </div>
+
+    <footer>
+        @2024 Vitor Magalhães Morais Ribeiro - Todos os direitos reservados
+    </footer>
+</body>
+</html>

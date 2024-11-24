@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    border-bottom: 5px solid #e03e00; /* Borda inferior sólida */
+    border-radius: 0 0 50% 50%; /* Curvatura como borda de pizza */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; /* Borda arredondada */
+    border: 5px solid #d4a373; /* Borda marrom clara, representando massa de pizza */
+}
+
+form {
+    border: 4px dotted #ffcc33; /* Borda pontilhada, representando queijo */
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff5e6; /* Cor clara, parecendo uma fatia */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+select, input, textarea, button {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #ff4500;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 50px; /* Botão arredondado */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+    background-color: #e03e00;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-top: 5px groove #ff4500; /* Borda entalhada */
+    border-radius: 50% 50% 0 0; /* Curvatura superior, como borda de pizza */
+}
